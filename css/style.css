@@ -1,0 +1,60 @@
+.header-container{
+	display: inline;
+	flex-direction: row;
+	color: black;
+	background-color: grey;
+}
+.navbar-nav{
+	margin-left: 10vw;
+	font-size: 13px;
+	text-transform: uppercase;
+
+}
+.navbar-brand img{
+	width: 10vw;
+	height: 15vh;
+	text-transform: uppercase;
+	margin-left: 10vw;
+
+
+}
+.navbar-nav a{
+	color:black;
+	padding: 3px 7px;
+
+}
+#Home,#Actors{
+color: white;
+background-color: blue;
+}
+#Home:hover,#Actors:hover{
+	color: blue;
+background-color: white;
+}
+.navbar-nav a:hover{
+	color: black;
+	border-bottom: 2px solid blue;
+}
+.img-fluid{
+	max-width: 350px;
+	height: 300px;
+}
+#actors div{
+	padding: 5em;
+	background-color: white;
+	box-shadow: 5px 5px 20px grey;
+
+}
+.footer-img{
+	padding-left: 8.5em;
+	margin-bottom: 4em;
+}
+.footer-container{
+	background-color: black;
+	color: white;
+}
+.social-links{
+	padding-left:0.5em;
+	color:white;
+	font-size: 3;
+}
